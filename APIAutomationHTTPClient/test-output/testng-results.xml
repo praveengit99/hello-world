@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2755" started-at="2018-11-25T10:21:35Z" finished-at="2018-11-25T10:21:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2755" started-at="2018-11-25T10:21:35Z" finished-at="2018-11-25T10:21:38Z">
+      <class name="com.qa.tests.GetAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@4cc0edeb]" name="setUp" is-config="true" duration-ms="11" started-at="2018-11-25T10:21:35Z" finished-at="2018-11-25T10:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAPITestWithoutHeaders(java.lang.String)[pri:0, instance:com.qa.tests.GetAPITest@4cc0edeb]" name="getAPITestWithoutHeaders" duration-ms="2670" started-at="2018-11-25T10:21:35Z" finished-at="2018-11-25T10:21:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithoutHeaders -->
+      </class> <!-- com.qa.tests.GetAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
